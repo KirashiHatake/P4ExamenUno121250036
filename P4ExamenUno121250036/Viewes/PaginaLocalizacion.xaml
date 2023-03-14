@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P4ExamenUno121250036.Viewes.PaginaLocalizacion">
+    <ContentPage.Content>
+        <StackLayout Padding="10,10,10,0">
+            
+            <Label Text ="Latitud"/>
+            <Entry Placeholder="latitud" x:Name="latitud" Keyboard="Numeric" IsEnabled="False"/>
+
+            <Label Text ="Longitud"/>
+            <Entry Placeholder="longitud" x:Name="longitud" Keyboard="Numeric" IsEnabled="False"/>
+
+            <Label Text ="Descripcion Larga"/>
+            <Entry Placeholder="descripcion larga" x:Name="descripcion_larga" Keyboard="Text" IsEnabled="False"/>
+
+            <Label Text ="Descripcion Corta"/>
+            <Entry Placeholder="descripcion corta" x:Name="descripcion_corta" Keyboard="Text" IsEnabled="False"/>
+
+            <Button x:Name="btnguardar" Text="Guardar" Clicked="btnguardar_Clicked"/>
+
+            <Button x:Name="btnverubicacion" Text="Ver Ubicaciones" Clicked="btnverubicacion_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
